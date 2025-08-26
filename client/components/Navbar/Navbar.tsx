@@ -19,12 +19,22 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ sectionRefs }) => {
   const [isDarkMode, setIsDarkMode] = React.useState(false);
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [scrolled, setScrolled] = React.useState(0);
   const scrollToSection = (ref: React.RefObject<HTMLElement | null>) => {
     if (ref.current) {
       ref.current.scrollIntoView({ behavior: "smooth" });
       setIsMenuOpen(false);
     }
   };
+  React.useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   const links = [
     {
       name: "Home",
@@ -52,7 +62,11 @@ const Navbar: React.FC<NavbarProps> = ({ sectionRefs }) => {
     },
   ];
   return (
-    <header className="py-4">
+    <header
+      className={`${
+        scrolled > 0 ? "shadow-2xl" : "shadow-none"
+      } fixed w-full py-4`}
+    >
       <nav className="flex justify-between items-center container lg:!px-20">
         <div className="flex items-center gap-1 basis-[25%]">
           <div className=" p-2 rounded-full bg-primary text-white flex items-center justify-center">
