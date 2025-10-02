@@ -65,7 +65,7 @@ const Navbar: React.FC<NavbarProps> = ({ sectionRefs }) => {
     <header
       className={`${
         scrolled > 0 ? "shadow-2xl" : "shadow-none"
-      } fixed w-full py-4`}
+      } fixed w-full py-4 z-50 bg-white  transition-shadow duration-300`}
     >
       <nav className="flex justify-between items-center container lg:!px-20">
         <div className="flex items-center gap-1 basis-[25%]">
@@ -82,7 +82,7 @@ const Navbar: React.FC<NavbarProps> = ({ sectionRefs }) => {
         </button>
 
         <div
-          className={`lg:relative rounded-2xl absolute lg:py-0 lg:px-0 py-2 px-4 lg:left-0 lg:shadow-none shadow-2xl left-1/2 lg:translate-x-0 lg:bg-transparent bg-accent/10 -translate-x-1/2 lg:top-0 block lg:flex items-center justify-between gap-6 basis-[73%] transition-all duration-300 ${
+          className={`lg:relative absolute lg:py-0 lg:px-0 py-2 px-4 lg:left-0 lg:shadow-none shadow-2xl left-1/2 lg:translate-x-0 lg:bg-transparent bg-accent/30 rounded-2xl backdrop-blur-2xl -translate-x-1/2 lg:top-0 block lg:flex items-center justify-between gap-6 basis-[73%] transition-all duration-300 ${
             isMenuOpen ? "top-16 " : "-top-80"
           }`}
         >

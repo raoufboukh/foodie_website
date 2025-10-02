@@ -1,15 +1,23 @@
 "use client";
+import Hero from "@/components/Home/Hero";
 import Navbar from "@/components/Navbar/Navbar";
 import { useRef } from "react";
 
 export default function Home() {
   const sectionRefs = {
-    home: useRef<HTMLElement | null>(null),
-    restaurants: useRef<HTMLElement | null>(null),
-    features: useRef<HTMLElement | null>(null),
-    menu: useRef<HTMLElement | null>(null),
-    testimonials: useRef<HTMLElement | null>(null),
-    contact: useRef<HTMLElement | null>(null),
+    home: useRef<HTMLElement | null | any>(null),
+    restaurants: useRef<HTMLElement | null | any>(null),
+    features: useRef<HTMLElement | null | any>(null),
+    menu: useRef<HTMLElement | null | any>(null),
+    testimonials: useRef<HTMLElement | null | any>(null),
+    contact: useRef<HTMLElement | null | any>(null),
   };
-  return <Navbar sectionRefs={sectionRefs} />;
+  return (
+    <>
+      <Navbar sectionRefs={sectionRefs} />
+      <div ref={sectionRefs.home}>
+        <Hero />
+      </div>
+    </>
+  );
 }

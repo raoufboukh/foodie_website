@@ -7,14 +7,14 @@
 
 .container {
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
 }
 
 @theme inline {
   --color-primary: #15255a;
   --color-secondary: #1e40af;
   --color-accent: #2563eb;
-  --color-muted: #6b7280;
+  --color-muted: #d20061;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
