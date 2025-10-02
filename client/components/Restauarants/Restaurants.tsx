@@ -6,9 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 const Restaurants = () => {
   return (
     <section className="pt-20">
-      <p className="text-gray-500 text-center mb-10 sm:text-2xl font-bold">
-        Explore the best restaurants in your area.
-      </p>
+      <h2>Explore the best restaurants in your area.</h2>
       <div className="grid grid-cols-[repeat(auto-fit,minmax(275px,1fr))] gap-6 container lg:!px-20 ">
         {restaurants.map((restaurants) => (
           <div
@@ -42,7 +40,7 @@ const Restaurants = () => {
           </div>
         ))}
       </div>
-      <button className="group bg-accent px-7 block w-fit mx-auto py-2 text-lg hover:bg-secondary transition-all duration-300 cursor-pointer rounded-3xl text-white mt-10">
+      <button className="group bg-accent px-10 block w-fit mx-auto py-3 text-lg hover:bg-secondary transition-all duration-300 cursor-pointer rounded-full text-white mt-10">
         Discover More{" "}
         <FaArrowRight className="inline-block ml-1 group-hover:animate-[arrow-slide_350ms_ease-in-out_infinite_alternate]" />
       </button>

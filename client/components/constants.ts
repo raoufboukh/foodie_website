@@ -36,3 +36,46 @@ export const restaurants = [
     categories: ["Algerian", "Fast Food", "Noodles"],
   },
 ];
+
+export const features = [
+  "Pizza",
+  "Breakfast",
+  "Japanese",
+  "Halal",
+  "Desserts",
+  "Lebanese",
+  "Algerian",
+  "sushi",
+  "Greek",
+  "Thai",
+  "Vegetarian",
+  "Italian",
+  "Mexican",
+  "Indian",
+  "Chinese",
+  "Breakfast",
+  "Burgers",
+];
+
+export const menu = [
+  {
+    id: "01",
+    name: "Become a Delivery Man",
+    description:
+      "As a delivery driver, you'll make reliable money—working anytime, anywhere.",
+    image: "/assets/w1.png",
+  },
+  {
+    id: "02",
+    name: "Become a Partner",
+    description:
+      "Grow your business and reach new customers by partnering with us.",
+    image: "/assets/w2.png",
+  },
+  {
+    id: "03",
+    name: "Try Android/iOS App",
+    description: "Get the best DoorDash experience with live order tracking.",
+    image: "/assets/w3.png",
+  },
+];

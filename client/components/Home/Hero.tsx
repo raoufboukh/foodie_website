@@ -8,10 +8,10 @@ const Hero = () => {
     <div className="pt-22">
       <div className="container flex justify-between flex-wrap items-center lg:!px-24">
         <div className="lg:basis-[45%] basis-[80%] pt-5 mx-auto lg:mx-0">
-          <h2 className="sm:text-5xl text-3xl leading-tight font-bold text-center lg:text-left">
+          <h3 className="sm:text-5xl text-3xl leading-tight font-bold text-center lg:text-left">
             Your favorite food <span className="text-muted">delivred</span> your
             home
-          </h2>
+          </h3>
           <p className="text-gray-500 my-5 sm:text-base text-sm font-bold text-center lg:text-left">
             Food, drinks, groceries, and more available for delivery and pickup
           </p>
