@@ -5,7 +5,7 @@ import { BsSend } from "react-icons/bs";
 
 const Hero = () => {
   return (
-    <div className="py-22">
+    <div className="pt-22">
       <div className="container flex justify-between flex-wrap items-center lg:!px-24">
         <div className="lg:basis-[45%] basis-[80%] pt-5 mx-auto lg:mx-0">
           <h2 className="sm:text-5xl text-3xl leading-tight font-bold text-center lg:text-left">
