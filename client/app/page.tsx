@@ -4,6 +4,7 @@ import Hero from "@/components/Home/Hero";
 import Menu from "@/components/Menu/Menu";
 import Navbar from "@/components/Navbar/Navbar";
 import Restaurants from "@/components/Restauarants/Restaurants";
+import Testimonials from "@/components/Testimonials/Testimonials";
 import { useRef } from "react";
 
 export default function Home() {
@@ -29,6 +30,9 @@ export default function Home() {
       </div>
       <div ref={sectionRefs.menu}>
         <Menu />
+      </div>
+      <div ref={sectionRefs.testimonials}>
+        <Testimonials />
       </div>
     </>
   );

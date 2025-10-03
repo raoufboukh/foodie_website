@@ -79,3 +79,24 @@ export const menu = [
     image: "/assets/w3.png",
   },
 ];
+
+export const testimonials = [
+  {
+    id: "01",
+    name: "Easy to use application",
+    description:
+      "We’re driven beyond just finishing the projects. We want to find solutions using our website & apps",
+  },
+  {
+    id: "02",
+    name: "Deliver Food within 30 min",
+    description:
+      "We’re driven beyond just finishing the projects. We want to find solutions using our website & apps",
+  },
+  {
+    id: "03",
+    name: "100% Reliable with Privacy",
+    description:
+      "We’re driven beyond just finishing the projects. We want to find solutions using our website & apps",
+  },
+];
