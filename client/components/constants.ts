@@ -100,3 +100,75 @@ export const testimonials = [
       "We’re driven beyond just finishing the projects. We want to find solutions using our website & apps",
   },
 ];
+
+export const Qualities = [
+  {
+    name: "Analytics Business",
+    description:
+      "We’re driven beyond just finishing the projects. We want to find smart solutions",
+    image: "/assets/f1.svg",
+  },
+  {
+    name: "Largest People",
+    description:
+      "We’re driven beyond just finishing the projects. We want to find smart solutions",
+    image: "/assets/f2.svg",
+  },
+  {
+    name: "Wide Coverage Map",
+    description:
+      "We’re driven beyond just finishing the projects. We want to find smart solutions",
+    image: "/assets/f3.svg",
+  },
+  {
+    name: "Artificial Intelligence",
+    description:
+      "We’re driven beyond just finishing the projects. We want to find smart solutions",
+    image: "/assets/f4.svg",
+  },
+  {
+    name: "Trusted & Secure",
+    description:
+      "We’re driven beyond just finishing the projects. We want to find smart solutions",
+    image: "/assets/f5.svg",
+  },
+  {
+    name: "Mobile Apps",
+    description:
+      "We’re driven beyond just finishing the projects. We want to find smart solutions",
+    image: "/assets/f6.svg",
+  },
+];
+
+export const faqs = [
+  {
+    id: 1,
+    title: "Great Work!",
+    rating: 5,
+    quote:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur officiis laudantium numquam aliquam eum veniam ad sit. Excepturi, ex nisi.",
+    name: "Jassica Doe",
+    role: "UI UX Designer",
+    avatar: "/assets/c1.png",
+  },
+  {
+    id: 2,
+    title: "Creative Work!",
+    rating: 5,
+    quote:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur officiis laudantium numquam aliquam eum veniam ad sit. Excepturi, ex nisi.",
+    name: "Jany Doe",
+    role: "Web Developer",
+    avatar: "/assets/c2.png",
+  },
+  {
+    id: 3,
+    title: "Amazing Support!",
+    rating: 5,
+    quote:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur officiis laudantium numquam aliquam eum veniam ad sit. Excepturi, ex nisi.",
+    name: "Michael Blake",
+    role: "Product Manager",
+    avatar: "/assets/c3.png",
+  },
+];

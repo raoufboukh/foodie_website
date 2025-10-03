@@ -1,8 +1,10 @@
 "use client";
+import Faqs from "@/components/Faqs/Faqs";
 import Features from "@/components/Features/Features";
 import Hero from "@/components/Home/Hero";
 import Menu from "@/components/Menu/Menu";
 import Navbar from "@/components/Navbar/Navbar";
+import Quality from "@/components/Quality/Quality";
 import Restaurants from "@/components/Restauarants/Restaurants";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import { useRef } from "react";
@@ -33,6 +35,12 @@ export default function Home() {
       </div>
       <div ref={sectionRefs.testimonials}>
         <Testimonials />
+      </div>
+      <div>
+        <Quality />
+      </div>
+      <div>
+        <Faqs />
       </div>
     </>
   );
