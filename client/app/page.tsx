@@ -1,6 +1,8 @@
 "use client";
+import Contact from "@/components/Contact/Contact";
 import Faqs from "@/components/Faqs/Faqs";
 import Features from "@/components/Features/Features";
+import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Home/Hero";
 import Menu from "@/components/Menu/Menu";
 import Navbar from "@/components/Navbar/Navbar";
@@ -41,6 +43,12 @@ export default function Home() {
       </div>
       <div>
         <Faqs />
+      </div>
+      <div ref={sectionRefs.contact}>
+        <Contact />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );

@@ -1,3 +1,5 @@
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+
 export const restaurants = [
   {
     id: 1,
@@ -171,4 +173,38 @@ export const faqs = [
     role: "Product Manager",
     avatar: "/assets/c3.png",
   },
+];
+
+export const socials = [
+  {
+    icon: FaFacebook,
+    color: "#3b5998",
+  },
+  {
+    icon: FaInstagram,
+    color: "#E1306C",
+  },
+  {
+    icon: FaTwitter,
+    color: "#1DA1F2",
+  },
+  {
+    icon: FaYoutube,
+    color: "#FF0000",
+  },
+];
+
+export const companyLinks = [
+  "About Us",
+  "News & Press",
+  "Our Customers",
+  "Leadership",
+  "Careers",
+];
+
+export const resourceLinks = [
+  "Blog",
+  "Webinar & Events",
+  "Podcast",
+  "E-book & Guides",
 ];
